@@ -375,6 +375,7 @@ main {
             .text {
                 @include flex-column(0rem);
                 text-align: center;
+                align-items: center;
                 margin: 2rem 5rem;
 
                 h1 {
@@ -392,7 +393,6 @@ main {
                     font-size: 1rem;
                     padding: 0.6rem 1rem;
                     margin-top: 1rem;
-                    margin-left: 3.7rem;
                     background-color: rgb(30, 30, 30);
                     color: white;
                     border: none;
@@ -428,6 +428,7 @@ main {
             @include flex-column(0rem);
             text-align: center;
             margin: 2rem 5rem;
+            align-items: center;
 
             h1 {
                 font-family: head;
@@ -444,7 +445,6 @@ main {
                 font-size: 1rem;
                 padding: 0.6rem 1rem;
                 margin-top: 1rem;
-                margin-left: 3.6rem;
                 background-color: rgb(30, 30, 30);
                 color: white;
                 border: none;
@@ -478,6 +478,7 @@ main {
             @include flex-column(0rem);
             text-align: center;
             margin: 2rem 2rem;
+            align-items: center;
 
             h1 {
                 font-family: head;
@@ -494,7 +495,6 @@ main {
                 font-size: 1rem;
                 padding: 0.6rem 1rem;
                 margin-top: 1rem;
-                margin-left: 6.4rem;
                 background-color: rgb(30, 30, 30);
                 color: white;
                 border: none;
@@ -528,6 +528,7 @@ main {
             @include flex-column(0rem);
             text-align: center;
             margin: 2rem 0rem;
+            align-items: center;
 
             h1 {
                 font-family: head;
@@ -545,7 +546,6 @@ main {
                 font-size: 1rem;
                 padding: 0.6rem 1rem;
                 margin-top: 1rem;
-                margin-left: 8.7rem;
                 background-color: rgb(30, 30, 30);
                 color: white;
                 border: none;
@@ -578,6 +578,7 @@ main {
                     @include flex-column(0rem);
                     text-align: center;
                     margin: 2rem 4rem;
+                    align-items: center;
 
                     h1 {
                         font-family: head;
@@ -594,7 +595,6 @@ main {
                         font-size: 1rem;
                         padding: 0.6rem 1rem;
                         margin-top: 1rem;
-                        margin-left: 4.6rem;
                         background-color: rgb(30, 30, 30);
                         color: white;
                         border: none;
@@ -688,6 +688,7 @@ main {
             @include flex-column(0rem);
             text-align: center;
             margin: 2rem 4rem;
+            align-items: center;
 
             h1 {
                 font-family: head;
@@ -704,7 +705,6 @@ main {
                 font-size: 1rem;
                 padding: 0.6rem 1rem;
                 margin-top: 1.5rem;
-                margin-left: 4.7rem;
                 background-color: rgb(30, 30, 30);
                 color: white;
                 border: none;
@@ -1007,7 +1007,6 @@ main {
         section.view6 {
 
             .banner {
-
                 .media {
                     .mobile {
                         display: none;
@@ -1030,11 +1029,12 @@ main {
                     }
 
                     p {
+                        margin-right: 7rem;
                         font-size: 1.5rem;
                     }
 
                     button {
-                        margin-left: 0;
+                        margin-right: 14rem;
                         font-size: 1.3rem;
                         padding: 0.7rem 1.5rem;
                         background-color: white;
@@ -1073,7 +1073,6 @@ main {
                     }
 
                     button {
-                        margin-left: 7rem;
                         font-size: 1.3rem;
                         padding: 0.7rem 1.5rem;
                         background-color: white;
@@ -1112,7 +1111,7 @@ main {
                     }
 
                     button {
-                        margin-left: 0;
+                        margin-right: 9rem;
                         font-size: 1.3rem;
                         padding: 0.7rem 1.5rem;
                         background-color: white;
@@ -1177,11 +1176,11 @@ main {
 
                         p {
                             font-family: head;
-                            font-size: 1.6rem;
+                            font-size: 1.4rem;
                             text-align: center;
                             width: 70%;
                             color: white;
-                            margin-left: -1.5rem;
+                            margin-left: -4rem;
                             margin-top: 13rem;
                         
                             text-shadow: 1px 2px 5px black;
@@ -1287,7 +1286,6 @@ main {
                     }
 
                     button {
-                        margin-left: 1.6rem;
                         font-size: 1.3rem;
                         padding: 0.5rem 1.3rem;
                         background-color: white;

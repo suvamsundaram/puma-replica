@@ -357,6 +357,7 @@ main section.view6 .banner .text {
   flex-direction: column;
   gap: 0rem;
   text-align: center;
+  align-items: center;
   margin: 2rem 5rem;
 }
 main section.view6 .banner .text h1 {
@@ -372,7 +373,6 @@ main section.view6 .banner .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 3.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -407,6 +407,7 @@ main section.view7 .text {
   gap: 0rem;
   text-align: center;
   margin: 2rem 5rem;
+  align-items: center;
 }
 main section.view7 .text h1 {
   font-family: head;
@@ -421,7 +422,6 @@ main section.view7 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 3.6rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -455,6 +455,7 @@ main section.view8 .text {
   gap: 0rem;
   text-align: center;
   margin: 2rem 2rem;
+  align-items: center;
 }
 main section.view8 .text h1 {
   font-family: head;
@@ -469,7 +470,6 @@ main section.view8 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 6.4rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -503,6 +503,7 @@ main section.view9 .text {
   gap: 0rem;
   text-align: center;
   margin: 2rem 0rem;
+  align-items: center;
 }
 main section.view9 .text h1 {
   font-family: head;
@@ -518,7 +519,6 @@ main section.view9 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 8.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -557,6 +557,7 @@ main section.view10 .container .banner .text {
   gap: 0rem;
   text-align: center;
   margin: 2rem 4rem;
+  align-items: center;
 }
 main section.view10 .container .banner .text h1 {
   font-family: head;
@@ -571,7 +572,6 @@ main section.view10 .container .banner .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 4.6rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -664,6 +664,7 @@ main section.view12 .text {
   gap: 0rem;
   text-align: center;
   margin: 2rem 4rem;
+  align-items: center;
 }
 main section.view12 .text h1 {
   font-family: head;
@@ -678,7 +679,6 @@ main section.view12 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1.5rem;
-  margin-left: 4.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -917,10 +917,11 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     font-size: 2.5rem;
   }
   main section.view6 .banner .text p {
+    margin-right: 7rem;
     font-size: 1.5rem;
   }
   main section.view6 .banner .text button {
-    margin-left: 0;
+    margin-right: 14rem;
     font-size: 1.3rem;
     padding: 0.7rem 1.5rem;
     background-color: white;
@@ -946,7 +947,6 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     font-size: 1.5rem;
   }
   main section.view7 .banner .text button {
-    margin-left: 7rem;
     font-size: 1.3rem;
     padding: 0.7rem 1.5rem;
     background-color: white;
@@ -972,7 +972,7 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     font-size: 1.5rem;
   }
   main section.view8 .banner .text button {
-    margin-left: 0;
+    margin-right: 9rem;
     font-size: 1.3rem;
     padding: 0.7rem 1.5rem;
     background-color: white;
@@ -1020,11 +1020,11 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
   }
   main section.view10 .container .banner .text p {
     font-family: head;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: center;
     width: 70%;
     color: white;
-    margin-left: -1.5rem;
+    margin-left: -4rem;
     margin-top: 13rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -1097,7 +1097,6 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     font-size: 1.5rem;
   }
   main section.view12 .banner .text button {
-    margin-left: 1.6rem;
     font-size: 1.3rem;
     padding: 0.5rem 1.3rem;
     background-color: white;
