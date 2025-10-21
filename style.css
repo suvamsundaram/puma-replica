@@ -992,6 +992,7 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     text-align: right;
   }
   main section.view9 .banner .text h1 {
+    margin-left: 19rem;
     font-size: 2.5rem;
   }
   main section.view9 .banner .text p {
