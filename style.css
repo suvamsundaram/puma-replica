@@ -1,0 +1,1122 @@
+@font-face {
+  font-family: puma;
+  src: url(./FFDINforPumaW07-Regular-latin.woff2);
+}
+@font-face {
+  font-family: head;
+  src: url(./FFDINforPumaW07-Bold-latin.woff2);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: puma;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  max-width: 1520px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.hero .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.hero .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.hero .banner .media .mobile-img {
+  display: block;
+}
+main section.hero .banner .media .desktop-img {
+  display: none;
+}
+main section.hero .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.hero .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 2rem;
+}
+main section.hero .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.hero .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.hero .banner .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.hero .banner .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin: 1rem 0rem;
+}
+main section.view1 .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view1 .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view1 .banner .media .mobile {
+  display: block;
+}
+main section.view1 .banner .media .desktop {
+  display: none;
+}
+main section.view1 .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view1 .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 4rem;
+}
+main section.view1 .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view1 .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view1 .banner .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.view1 .banner .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view2 .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view2 .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view2 .banner .media .mobile {
+  display: block;
+}
+main section.view2 .banner .media .desktop {
+  display: none;
+}
+main section.view2 .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view2 .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 2rem;
+}
+main section.view2 .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view2 .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view2 .banner .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.view2 .banner .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin: 1rem 0rem;
+}
+main section.view3 .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view3 .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view3 .banner .media .moblie {
+  display: block;
+}
+main section.view3 .banner .media .desktop {
+  display: none;
+}
+main section.view3 .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view3 .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 2rem;
+}
+main section.view3 .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view3 .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view3 .banner .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.view3 .banner .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view4 .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view4 .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view4 .banner .media .mobile {
+  display: block;
+}
+main section.view4 .banner .media .desktop {
+  display: none;
+}
+main section.view4 .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view4 .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 2rem;
+}
+main section.view4 .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view4 .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view4 .banner .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.view4 .banner .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin: 3rem 3rem;
+}
+main section.view5 h1 {
+  font-family: head;
+  font-size: 1.2rem;
+  text-align: center;
+}
+main section.view6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view6 .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view6 .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view6 .banner .media .mobile {
+  display: block;
+}
+main section.view6 .banner .media .desktop {
+  display: none;
+}
+main section.view6 .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view6 .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 5rem;
+}
+main section.view6 .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view6 .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view6 .banner .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+main section.view7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin: 1rem 0rem;
+}
+main section.view7 .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view7 .media .mobile {
+  display: block;
+}
+main section.view7 .media .desktop {
+  display: none;
+}
+main section.view7 .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view7 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 5rem;
+}
+main section.view7 .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view7 .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view7 .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+main section.view8 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view8 .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view8 .media .mobile {
+  display: block;
+}
+main section.view8 .media .desktop {
+  display: none;
+}
+main section.view8 .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view8 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 2rem;
+}
+main section.view8 .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view8 .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view8 .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-left: 7.5rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+main section.view9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view9 .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view9 .media .mobile {
+  display: block;
+}
+main section.view9 .media .desktop {
+  display: none;
+}
+main section.view9 .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view9 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+main section.view9 .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view9 .text p {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+main section.view9 .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+main section.view10 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 1rem 0rem;
+}
+main section.view10 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view10 .container .banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view10 .container .banner .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view10 .container .banner .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view10 .container .banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 4rem;
+}
+main section.view10 .container .banner .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view10 .container .banner .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view10 .container .banner .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+main section.view10 .container .hidden {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  display: none;
+}
+main section.view11 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin: 1rem 0rem;
+}
+main section.view11 .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view11 .media .mobile {
+  display: block;
+}
+main section.view11 .media .desktop {
+  display: none;
+}
+main section.view11 .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view11 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 4rem;
+}
+main section.view11 .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view11 .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view11 .text .but {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+main section.view11 .text .but button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main section.view12 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view12 .media {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section.view12 .media .mobile {
+  display: block;
+}
+main section.view12 .media .desktop {
+  display: none;
+}
+main section.view12 .media img {
+  background-position: center;
+  background-size: cover;
+}
+main section.view12 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  text-align: center;
+  margin: 2rem 4rem;
+}
+main section.view12 .text h1 {
+  font-family: head;
+  font-size: 1.6rem;
+}
+main section.view12 .text p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+main section.view12 .text button {
+  font-family: head;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main section.view13 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding-right: 15rem;
+  padding-top: 4rem;
+}
+main section.view13 h1 {
+  font-family: head;
+  font-size: 1.2rem;
+  text-align: center;
+}
+main section.view14 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+}
+main section.view14 .shoe-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+main section.view14 .shoe-container .shoe-card {
+  width: 220px;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+main section.view14 .shoe-container .shoe-card img {
+  width: 100%;
+}
+main section.view14 .shoe-container .shoe-card h3 {
+  font-size: 1rem;
+  margin: 10px 0 5px;
+}
+main section.view14 .shoe-container .shoe-card p {
+  color: red;
+  font-weight: bold;
+}
+main section.view14 .shoe-container::-webkit-scrollbar {
+  height: 6px;
+}
+main section.view14 .shoe-container::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(50, 50, 50);
+}
+main section.view14 .shoe-container::-webkit-scrollbar-track {
+  background-color: rgb(177, 177, 177);
+  margin: 15px;
+}
+
+@media (min-width: 900px) {
+  main {
+    align-items: center;
+  }
+  main section.hero .banner {
+    position: relative;
+  }
+  main section.hero .banner .media .mobile-img {
+    display: none;
+  }
+  main section.hero .banner .media .desktop-img {
+    display: block;
+  }
+  main section.hero .banner .text {
+    color: white;
+    position: absolute;
+    text-align: right;
+    padding-left: 62rem;
+    padding-top: 7rem;
+  }
+  main section.hero .banner .text h1 {
+    font-size: 2.3rem;
+  }
+  main section.hero .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.hero .banner .text .but {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    gap: 1rem;
+  }
+  main section.hero .banner .text .but button {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view1 .banner .media .mobile {
+    display: none;
+  }
+  main section.view1 .banner .media .desktop {
+    display: block;
+  }
+  main section.view1 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: 9rem;
+    text-align: left;
+  }
+  main section.view1 .banner .text h1 {
+    font-size: 2.7rem;
+  }
+  main section.view1 .banner .text p {
+    font-size: 1.8rem;
+  }
+  main section.view1 .banner .text .but {
+    margin-top: 2rem;
+    margin-right: 60rem;
+    gap: 1rem;
+  }
+  main section.view1 .banner .text .but button {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view2 .banner .media .mobile {
+    display: none;
+  }
+  main section.view2 .banner .media .desktop {
+    display: block;
+  }
+  main section.view2 .banner .text {
+    width: 95%;
+    position: absolute;
+    color: white;
+    margin-top: 9rem;
+  }
+  main section.view2 .banner .text h1 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
+  main section.view2 .banner .text p {
+    font-size: 1.8rem;
+  }
+  main section.view2 .banner .text .but {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    gap: 1rem;
+  }
+  main section.view2 .banner .text .but button {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view3 .banner .media .mobile {
+    display: none;
+  }
+  main section.view3 .banner .media .desktop {
+    display: block;
+  }
+  main section.view3 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    text-align: left;
+  }
+  main section.view3 .banner .text h1 {
+    font-size: 2.7rem;
+  }
+  main section.view3 .banner .text p {
+    font-size: 1.8rem;
+  }
+  main section.view3 .banner .text .but {
+    margin-top: 2rem;
+    margin-right: 50rem;
+    gap: 1rem;
+  }
+  main section.view3 .banner .text .but button {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view4 .banner .media .mobile {
+    display: none;
+  }
+  main section.view4 .banner .media .desktop {
+    display: block;
+  }
+  main section.view4 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    text-align: left;
+  }
+  main section.view4 .banner .text h1 {
+    font-size: 2.7rem;
+  }
+  main section.view4 .banner .text p {
+    font-size: 1.8rem;
+  }
+  main section.view4 .banner .text .but {
+    margin-top: 2rem;
+    margin-right: 50rem;
+    gap: 1rem;
+  }
+  main section.view4 .banner .text .but button {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view5 {
+    margin: 7rem 0rem;
+  }
+  main section.view6 .banner .media .mobile {
+    display: none;
+  }
+  main section.view6 .banner .media .desktop {
+    display: block;
+  }
+  main section.view6 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    text-align: left;
+  }
+  main section.view6 .banner .text h1 {
+    font-size: 2.5rem;
+  }
+  main section.view6 .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.view6 .banner .text button {
+    margin-left: 0;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view7 .banner .media .mobile {
+    display: none;
+  }
+  main section.view7 .banner .media .desktop {
+    display: block;
+  }
+  main section.view7 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: -24rem;
+    margin-left: 36rem;
+    text-align: center;
+  }
+  main section.view7 .banner .text h1 {
+    font-size: 2.5rem;
+  }
+  main section.view7 .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.view7 .banner .text button {
+    margin-left: 7rem;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view8 .banner .media .mobile {
+    display: none;
+  }
+  main section.view8 .banner .media .desktop {
+    display: block;
+  }
+  main section.view8 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: -24rem;
+    margin-left: 4rem;
+    text-align: left;
+  }
+  main section.view8 .banner .text h1 {
+    font-size: 2.5rem;
+  }
+  main section.view8 .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.view8 .banner .text button {
+    margin-left: 0;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view9 .banner .media .mobile {
+    display: none;
+  }
+  main section.view9 .banner .media .desktop {
+    display: block;
+  }
+  main section.view9 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: -24rem;
+    margin-left: 50rem;
+    text-align: right;
+  }
+  main section.view9 .banner .text h1 {
+    font-size: 2.5rem;
+  }
+  main section.view9 .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.view9 .banner .text button {
+    margin-left: 32rem;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view10 .container {
+    flex-direction: row;
+    padding: 4rem 3rem;
+    gap: 1rem;
+  }
+  main section.view10 .container .banner {
+    width: 340px;
+  }
+  main section.view10 .container .banner .text {
+    position: absolute;
+  }
+  main section.view10 .container .banner .text h1 {
+    display: none;
+  }
+  main section.view10 .container .banner .text p {
+    font-family: head;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 70%;
+    color: white;
+    margin-left: -1.5rem;
+    margin-top: 13rem;
+    text-shadow: 1px 2px 5px black;
+  }
+  main section.view10 .container .banner .text button {
+    display: none;
+  }
+  main section.view10 .container .hidden {
+    width: 340px;
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: block;
+  }
+  main section.view10 .container .hidden img {
+    width: 100%;
+  }
+  main section.view10 .container .hidden .text h1 {
+    position: absolute;
+    margin-top: -5rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    text-shadow: 1px 5px 5px black;
+  }
+  main section.view11 .banner .media .mobile {
+    display: none;
+  }
+  main section.view11 .banner .media .desktop {
+    display: block;
+  }
+  main section.view11 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: -12rem;
+    margin-left: 35rem;
+    text-align: center;
+  }
+  main section.view11 .banner .text h1 {
+    font-size: 2rem;
+  }
+  main section.view11 .banner .text p {
+    font-size: 1.1rem;
+  }
+  main section.view11 .banner .text button {
+    margin-left: 0.6rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view12 .banner .media .mobile {
+    display: none;
+  }
+  main section.view12 .banner .media .desktop {
+    display: block;
+  }
+  main section.view12 .banner .text {
+    position: absolute;
+    color: white;
+    margin-top: -22rem;
+    margin-left: 41rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  main section.view12 .banner .text h1 {
+    font-size: 2.5rem;
+  }
+  main section.view12 .banner .text p {
+    font-size: 1.5rem;
+  }
+  main section.view12 .banner .text button {
+    margin-left: 1.6rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.3rem;
+    background-color: white;
+    color: black;
+  }
+  main section.view13 {
+    padding-top: 7rem;
+    padding-right: 73rem;
+    margin-bottom: 0;
+  }
+  main section.view13 h1 {
+    font-size: 1.5rem;
+  }
+  main section.view14 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  main section.view14 .shoe-container .shoe-card {
+    width: 300px;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
