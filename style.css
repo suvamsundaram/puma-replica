@@ -372,7 +372,7 @@ main section.view6 .banner .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 4rem;
+  margin-left: 3.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -421,7 +421,7 @@ main section.view7 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 4rem;
+  margin-left: 3.6rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -469,7 +469,7 @@ main section.view8 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 7rem;
+  margin-left: 6.4rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -510,15 +510,15 @@ main section.view9 .text h1 {
 }
 main section.view9 .text p {
   margin-top: 0.3rem;
-  font-size: 0.8rem;
-  font-weight: 550;
+  font-size: 0.7rem;
+  font-weight: 580;
 }
 main section.view9 .text button {
   font-family: head;
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 9.4rem;
+  margin-left: 8.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -571,7 +571,7 @@ main section.view10 .container .banner .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1rem;
-  margin-left: 5.5rem;
+  margin-left: 4.6rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
@@ -678,7 +678,7 @@ main section.view12 .text button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin-top: 1.5rem;
-  margin-left: 5.5rem;
+  margin-left: 4.7rem;
   background-color: rgb(30, 30, 30);
   color: white;
   border: none;
