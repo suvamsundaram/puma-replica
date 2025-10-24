@@ -781,6 +781,8 @@ main {
 @media (min-width: 900px) {
     main {
         align-items: center;
+        max-width: auto;
+        margin: auto;
         section.hero {
 
             .banner {
@@ -872,6 +874,8 @@ main {
         section.view2 {
 
             .banner {
+                display: flex;
+                position: relative;
 
                 .media {
                     .mobile {
@@ -887,7 +891,8 @@ main {
                     width: 95%;
                     position: absolute;
                     color: white;
-                    margin-top: 9rem;
+                    top: 20%;
+                    left: 1.3%;
 
                     h1 {
                         font-size: 2.7rem;

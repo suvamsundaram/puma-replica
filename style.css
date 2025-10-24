@@ -744,6 +744,8 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
 @media (min-width: 900px) {
   main {
     align-items: center;
+    max-width: auto;
+    margin: auto;
   }
   main section.hero .banner {
     position: relative;
@@ -807,6 +809,10 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     background-color: white;
     color: black;
   }
+  main section.view2 .banner {
+    display: flex;
+    position: relative;
+  }
   main section.view2 .banner .media .mobile {
     display: none;
   }
@@ -817,7 +823,8 @@ main section.view14 .shoe-container::-webkit-scrollbar-track {
     width: 95%;
     position: absolute;
     color: white;
-    margin-top: 9rem;
+    top: 20%;
+    left: 1.3%;
   }
   main section.view2 .banner .text h1 {
     font-size: 2.7rem;
